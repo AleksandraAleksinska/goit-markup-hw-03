@@ -15,91 +15,95 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <nav>
-          <a
-            class="webstudio link-style"
-            href="#"
-            target="_blank"
-            title="WebStudio"
-            ><span class="highlight">Web</span>Studio
-          </a>
+      <header class="header-agency">
+        <div class="container">
+          <nav class="nav-style">
+            <a
+              class="webstudio link-style"
+              href="#"
+              target="_blank"
+              title="WebStudio"
+              ><span class="highlight">Web</span>Studio
+            </a>
+            <ul class="nav-list inner-nav">
+              <li>
+                <a
+                  class="nav-item link-style"
+                  href="#"
+                  target="_self"
+                  title="Agencja"
+                >
+                  Agencja</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav-item link-style"
+                  href="./portfolio.html"
+                  target="_self"
+                  title="Portfolio"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav-item link-style"
+                  href="#"
+                  target="_self"
+                  title="Kontakt"
+                  >Kontakt</a
+                >
+              </li>
+            </ul>
+          </nav>
           <ul class="nav-list">
             <li>
-              <a
-                class="nav-item link-style"
-                href="#"
-                target="_self"
-                title="Agencja"
-              >
-                Agencja</a
+              <a class="nav-contact link-style" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
               >
             </li>
             <li>
-              <a
-                class="nav-item link-style"
-                href="./portfolio.html"
-                target="_self"
-                title="Portfolio"
-                >Portfolio</a
-              >
-            </li>
-            <li>
-              <a
-                class="nav-item link-style"
-                href="#"
-                target="_self"
-                title="Kontakt"
-                >Kontakt</a
+              <a class="nav-contact link-style" href="tel:+48111111111"
+                >+48111111111</a
               >
             </li>
           </ul>
-        </nav>
-        <ul class="nav-list">
-          <li>
-            <a class="nav-contact link-style" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="nav-contact link-style" href="tel:+48111111111"
-              >+48111111111</a
-            >
-          </li>
-        </ul>
+        </div>
       </header>
       <main>
         <section class="section-primary">
           <h1 class="header-primary">
             EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU
           </h1>
-          <button class="button-style" type="button">Zamów usługę</button>
+          <button class="button-style button-agency" type="button">
+            Zamów usługę
+          </button>
         </section>
         <div>
-          <section>
+          <section class="section container">
             <ul class="nav-list">
-              <li>
+              <li class="list-box">
                 <h3 class="lorem-title">LOREM IPSUM</h3>
                 <p class="lorem-description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                   vel arcu sem. Sed non sodales dui. Interdum et malesuada
                 </p>
               </li>
-              <li>
+              <li class="list-box">
                 <h3 class="lorem-title">LOREM IPSUM</h3>
                 <p class="lorem-description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                   vel arcu sem. Sed non sodales dui. Interdum et malesuada
                 </p>
               </li>
-              <li>
+              <li class="list-box">
                 <h3 class="lorem-title">LOREM IPSUM</h3>
                 <p class="lorem-description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                   vel arcu sem. Sed non sodales dui. Interdum et malesuada
                 </p>
               </li>
-              <li>
+              <li class="list-box">
                 <h3 class="lorem-title">LOREM IPSUM</h3>
                 <p class="lorem-description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
@@ -108,11 +112,11 @@
               </li>
             </ul>
           </section>
-          <section>
+          <section class="section task-section">
             <h2 class="header-secondary">Czym się zajmujemy</h2>
-            <ul class="nav-list">
-              <li>
-                <figure>
+            <ul class="nav-list container">
+              <li class="list-box">
+                <figure class="picture-style">
                   <img
                     src="./images/first-developer-at-work.jpg"
                     width="370"
@@ -122,7 +126,7 @@
                   />
                 </figure>
               </li>
-              <li>
+              <li class="list-box">
                 <figure>
                   <img
                     src="./images/second-developer-at-work.jpg"
@@ -133,7 +137,7 @@
                   />
                 </figure>
               </li>
-              <li>
+              <li class="list-box">
                 <figure>
                   <img
                     src="./images/third-developer-at-work.jpg"
@@ -147,10 +151,10 @@
             </ul>
           </section>
         </div>
-        <section class="team">
+        <section class="team section">
           <h2 class="header-secondary">Nasz zespół</h2>
-          <ul class="nav-list">
-            <li>
+          <ul class="nav-list container">
+            <li class="list-box">
               <figure class="team-member-box">
                 <img
                   src="./images/photo-product-designer.jpg"
@@ -159,13 +163,13 @@
                   alt="zdjęcie Product Designera"
                   title="zdjęcie Product Designera"
                 />
-                <figcaption>
+                <figcaption class="box-description">
                   <strong class="team-member-name">John Doe</strong>
                   <p class="team-member-description">Product Designer</p>
                 </figcaption>
               </figure>
             </li>
-            <li>
+            <li class="list-box">
               <figure class="team-member-box">
                 <img
                   src="./images/photo-frontend-developer.jpg"
@@ -174,13 +178,13 @@
                   alt="zdjęcie Frontend Developera"
                   title="zdjęcie Frontend Developera"
                 />
-                <figcaption>
+                <figcaption class="box-description">
                   <strong class="team-member-name">John Doe</strong>
                   <p class="team-member-description">Frontend Developer</p>
                 </figcaption>
               </figure>
             </li>
-            <li>
+            <li class="list-box">
               <figure class="team-member-box">
                 <img
                   src="./images/photo-marketing.jpg"
@@ -189,13 +193,13 @@
                   alt="zdjęcie specjalisty ds marketingu"
                   title="zdjęcie specjalisty ds marketingu"
                 />
-                <figcaption>
+                <figcaption class="box-description">
                   <strong class="team-member-name">John Doe</strong>
                   <p class="team-member-description">Marketing</p>
                 </figcaption>
               </figure>
             </li>
-            <li>
+            <li class="list-box">
               <figure class="team-member-box">
                 <img
                   src="./images/photo-ul-designer.jpg"
@@ -204,7 +208,7 @@
                   alt="zdjęcie Ul Designera"
                   title="zdjęcie Ul Designera"
                 />
-                <figcaption>
+                <figcaption class="box-description">
                   <strong class="team-member-name">John Doe</strong>
                   <p class="team-member-description">Ul Designer</p>
                 </figcaption>
