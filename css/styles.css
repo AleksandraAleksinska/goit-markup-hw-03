@@ -276,12 +276,15 @@ summary {
   width: 1200px;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: auto;
-  padding-inline: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .section {
-  padding-block: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 h1,
@@ -333,7 +336,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--black);
   margin-right: 93px;
-  margin-block: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .highlight {
   color: var(--blue);
@@ -384,8 +388,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--black-primary);
   font-family: inherit;
-  padding-block: 6px;
-  padding-inline: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  padding-left: 22px;
 }
 .button-style:visited,
 .button-style:focus,
@@ -425,7 +431,8 @@ body {
 .footer-section {
   background-color: var(--grey-secondary);
   color: var(--white);
-  padding-block: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   padding-left: 215px;
 }
 .footer-list {
@@ -471,11 +478,13 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding-block: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   align-items: center;
 }
 .button-agency {
-  padding-block: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 41px;
   padding-right: 42px;
   margin-top: 40px;
@@ -541,13 +550,15 @@ body {
 .portfolio-buttons {
   justify-content: center;
   gap: 8px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .project-card {
   border: solid 1px #eeeeee;
   max-width: 370px;
 }
 .photo-description {
-  margin-block: 20px;
-  margin-inline: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 24px;
+  margin-left: 24px;
 }
